@@ -3,6 +3,7 @@ namespace Practice
     public class MonthOfYear
     {
         static Text text = new Text();
+
         private enum Month
         {
             January = 1,
@@ -18,6 +19,7 @@ namespace Practice
             November = 11,
             December = 12
         }
+
         /// <summary>
         /// Returns a the month given a number
         /// </summary>

@@ -47,8 +47,8 @@ namespace Practice
 
             Console.ResetColor();
         }
-        
-        
+
+
         /// <summary>
         /// Asks for input that must be an integer otherwise error
         /// </summary>

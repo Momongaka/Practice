@@ -3,6 +3,7 @@ namespace Practice
     public class NumGen
     {
         static Text text = new Text();
+
         /// <summary>
         /// Generates an array ending with as many items as inputed
         /// </summary>

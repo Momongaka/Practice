@@ -3,6 +3,7 @@ namespace Practice
     public class OddEven
     {
         static Text text = new Text();
+
         public static void Check()
         {
             text.TextEd("\nWelcome to Odd or Even\n");

@@ -2,11 +2,10 @@ namespace Practice
 {
     public class Triangle
     {
-        
         public static void TriangleArea()
         {
             Text text = new Text();
-            
+
             text.TextEd("\nFind the Area of a Triangle", "red", "center");
 
             long triBase = text.AskForInt("What is the base of the triangle?");

@@ -1,11 +1,14 @@
 ﻿using System;
 using System.Linq;
+using System.Numerics;
+using Practice.OneOffs;
 
 namespace Practice
 {
     static class Program
     {
         static Text text = new Text();
+
         public static void Main(string[] args)
         {
             do
@@ -19,8 +22,6 @@ namespace Practice
 
         private static void Menu()
         {
-            
-
             text.TextEd("Choose program: Enter Number", "cyan");
 
 
@@ -33,6 +34,8 @@ namespace Practice
                 "Array Test",
                 "Months of Year",
                 "Reverse Array",
+                "Rolling Dice",
+                "Ball Pop",
                 "To Quit"
             };
 
@@ -77,6 +80,14 @@ namespace Practice
                     ReverseArray.Reverse(array1);
                     break;
                 case 8:
+                    Console.Clear();
+                    Dice.DiceRoll();
+                    break;
+                case 9:
+                    Console.Clear();
+                    PlayBall.RedThrow();
+                    break;
+                case 10:
                     Console.Clear();
                     Environment.Exit(0);
                     break;
